@@ -21,4 +21,5 @@ function currentLine(line) {
       list.push(`${i+1}. ${line[i]}`)
     }
   }
+  return `The line is currently: ${list.join(", ")}`
 }
